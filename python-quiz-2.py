@@ -14,9 +14,30 @@
 
 #classes: create a simple class with an __init__ method and one other method. Instantiate the class and call the method, printing the result.
 
-
-
-
+quiz = "Question 1"
+print(quiz)
+def type():
+    type1 = int(32)
+    print(f'{type1}')
+    type2= [1, 2, 3, 4, 5]
+    print(f'{type2}')
+    type3 = "These are three data types: An integer, an array, and a string"
+    print(f'{type3}')
+def birthday():
+    month = input("What month were you born?")
+    day = int(input("What day were you born?"))
+    age = float(input('How old are you?'))
+    year = 2025 - age
+    print(f'You were born on {month} {day}, {year}')
+class Person:
+    def __init__(self, name):
+        self.name = name
+    def greet(self):
+        print(f'Hi my name is {self.name}!')
+myname = Person('Jase')
+type()
+birthday()
+myname.greet()
 
 
 
