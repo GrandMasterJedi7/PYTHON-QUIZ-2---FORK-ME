@@ -1,2 +1,2 @@
-# PYTHON-QUIZ-2---FORK-ME
-FORK ME, DOWNLOAD TO YOUR COMPUTER, AND BEGIN TO TYPE UP YOUR SOLUTIONS
+This is the fork repository, and i have added my code.
+:)
